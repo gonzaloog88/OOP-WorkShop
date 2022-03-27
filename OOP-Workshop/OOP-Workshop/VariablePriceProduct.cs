@@ -13,11 +13,11 @@
       public override string ToString()
       {
          return $"  {Id} {Description}" +
-            $"\n\tMeasurement.............:{Measurement,20}" +
-            $"\n\tQuantity................:{Quantity,20:N2}" +
-            $"\n\tPrice...................:{Price,20:C2}" +
-            $"\n\tTax.....................:{Tax,20:P2}" +
-            $"\n\tValue...................:{ValueToPay(),20:C2}";
+            $"\n\tMeasurement.............: {Measurement,20}" +
+            $"\n\tQuantity................: {Quantity,20:N2}" +
+            $"\n\tPrice...................: {Price,20:C2}" +
+            $"\n\tTax.....................: {Tax,20:P2}" +
+            $"\n\tValue...................: {ValueToPay(),20:C2}";
       }
    }
 }

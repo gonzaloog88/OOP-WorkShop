@@ -12,9 +12,9 @@
       public override string ToString()
       {
          return $"  {Id} {Description}" +
-            $"\n\tPrice...................:{Price,20:C2}" +
-            $"\n\tTax.....................:{Tax,20:C2}" +
-            $"\n\tValue...................:{Price,20:C2}";
+            $"\n\tPrice...................: {Price,20:C2}" +
+            $"\n\tTax.....................: {Tax,20:C2}" +
+            $"\n\tValue...................: {Price,20:C2}";
       }
    }
 }
